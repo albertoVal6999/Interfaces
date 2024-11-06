@@ -1,0 +1,27 @@
+body{
+    display:grid;
+    grid-template-columns:1fr 7fr 2fr;
+    grid-template-rows:var(--headerheight)1fr var(--footerheight);
+    grid-template-areas:"header header header"
+                        "aside main section"
+                        "aside footer footer";
+}
+header{
+    grid-area: header;
+}
+
+aside{
+    grid-area: aside;
+}
+
+main{
+    grid-area: main;
+}
+
+section{
+    grid-area: section;
+}
+
+footer{
+    grid-area: footer;
+}

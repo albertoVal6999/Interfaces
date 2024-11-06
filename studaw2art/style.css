@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+
+main{
+    background-image: url("bgimage.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--primarycolor);
+    height: calc(100vh - var(--headerheight) - var(--footerheight));
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--secundarycolor);
+    height: var(--headerheight);
+    color: var(--contrastcolor);
+    
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    height: var(--footerheight);
+    background-color: var(--secundarycolor);
+    font-size: 10px;
+    padding-left:150px;
+    padding-right: 150px;
+    & p{
+        display: flex;
+        align-items: center;
+
+    }
+}
+
+aside{
+    background-color: var(--primarycolor);
+    color: var(--contrastcolor);
+    padding: 25px;
+    font-size: 20px;
+    & li{
+        list-style: none;
+    }
+    & a{
+        text-decoration: none;
+    }
+}
+section{
+    background-color: var(--primarycolor);
+    padding: 25px;
+    font-size: 14px;
+}
