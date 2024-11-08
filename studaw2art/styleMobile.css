@@ -1,0 +1,5 @@
+main{
+    overflow: scroll;
+}
+
+/**No hay que hacer grid para el movil,solo hay q ir tocandolo con flex**/

@@ -1,0 +1,48 @@
+main{
+    background-image: none;
+    display:grid;
+    /* grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr; */
+    
+    /**ESTO ES COMO EL FLEX WRAP**/
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+    grid-template-rows:repeat(auto-fill,minmax(300px,1fr));
+    gap:10px;
+    justify-items: center;
+    align-items: center;
+}
+
+
+
+table{
+   text-align: center;
+   width: 70%;
+   height: 80%;
+   border-collapse: collapse; /**Para que no se hagan las lineas dobles**/
+
+   & tfoot{
+    text-align: left;
+   }
+   & th{
+    border: solid 1px;
+    background-color: beige;
+   }
+   & td{
+    border: solid 1px;
+   }
+   & tr{
+    background-color: white;
+   }
+   & tr:nth-child(even){
+    background-color: rgba(127, 197, 255, 0.575);
+   }
+   & tfoot{
+    border-top: solid 3px rgba(127, 197, 255, 0.781);
+   }
+   
+   
+   
+}
+
+
+
