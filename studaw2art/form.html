@@ -4,9 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Oswald:wght@200..700&family=Permanent+Marker&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesForm.css">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="styleDesc.css" media="screen and (min-width: 801px)">
+    <link rel="stylesheet" href="styleMobile.css" media="screen and (max-width: 800px)">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <header>
+        <h1>STUDAW2ART</h1>
+    </header>
+
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="form.html">CONTACTO</a></li>
+                <li><a href="horario.html">HORARIO</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main>
+        <p>FORMULARIO DE CONTACTO PARA RESERVA DE SALAS</p>
+            <form action="" method="post">
+                <div class="forms">
+                <fieldset>
+                    <legend>DATOS PERSONALES</legend>
+
+                    <div class="campo">
+                        <label>NOMBRE</label>
+                        <input type="text" placeholder="NOMBRE">
+                    </div>
+                    
+                    <div class="campo">
+                        <label>APELLIDOS<span>*</span></label>
+                        <input type="text" placeholder="APELLIDOS">
+                    </div>
+                    
+                    <label>EMAIL<span>*</span></label>
+                    <input type="text" placeholder="EMAIL">
+                    
+                    <label>TELÉFONO</label>
+                    <input type="text" placeholder="TELÉFONO">
+                    
+                    <label>NO DESEO RECIBIR NOVEDADES</label>
+                    <input type="radio">
+
+                    <label>DESEO RECIBIR NOVEDADES</label>
+                    <input type="radio">
+                </fieldset>
+                <fieldset>
+                    <legend>DATOS DE LA RESERVA</legend>
+
+                    <label>NOMBRE DE LA EXPOSICIÓN</label>
+                    <input type="text" placeholder="NOMBRE DE LA EXPOSICIÓN">
+
+                    <label>FECHA PREVISTA DE INICIO</label>
+                    <input type="date">
+
+                    <label>FECHA PREVISTA FIN</label>
+                    <input type="date">
+
+                    <label>HORARIO</label>
+                    <input list="horarios">
+                    <datalist id="horarios">
+                        <option value="Mañana"></option>
+                        <option value="Tarde"></option>
+                    </datalist>
+
+                    <label>SELECCIONA LAS SALAS QUE DESEAS RESERVAR</label>
+                    <select multiple>
+                        <option value="SALA 1"></option>
+                        <option value="SALA 2"></option>
+                        <option value="SALA 3"></option>
+                        <option value="SALA 4"></option>
+                    </select>
+
+                    <label>COMENTARIOS</label>
+                    <textarea placeholder="POR SI QUIERES AÑADIR ALGO"></textarea>
+
+                </fieldset>
+            </div>
+            <div class="enviar">
+                <input type="checkbox">
+                <label>ACEPTO LOS TERMINOS Y CONDICIONES</label>
+                <button type="submit">ENVIAR</button>
+            </div>
+            </form>
+
+        </div>
+
+    </main>
+
+    <section>
+        <h2>PUBLICIDAD</h2>
+        <h3>AQUI PODRIA IR TU PUBLICIDAD</h3>
+    </section>
+
+    <footer>
+        <img src="logo.jpg">
+        <p>2024 STUDAW2ART. ESTUDIO DE ARTE CONTEMPORANEO S.A</p>
+        <p>CALLE DESCONOCIDA 22005 HUESCA</p>
+        <p>RESERVADOS TODOS LOS DERECHOS</p>
+    </footer>
 </body>
 </html>
