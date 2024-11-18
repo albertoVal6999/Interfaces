@@ -2,34 +2,113 @@ main{
     background-color: white;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-items: center;
+    
+    
+    & input{
+        border-radius: 5px;
+    }
+    & h1{
+        font-size: 22px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        color: var(--contrastcolor);
+    }
 }
+
 .forms{
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    flex-wrap: wrap;
+    
     
 }
 fieldset{
     display: flex;
     flex-direction: column;
-    width: 40%;
     border: 1px solid black;
     border-radius: 5px;
-    & campo{
-        display: flex;
-        justify-content: space-between;
-        margin: 0,5rem;
-        gap: 5px;
-        & input{
-            width: 60%;
-            /**falta poner los div en html.**/
-        }
-    }
+    padding: 25px;
+    background-color: azure;
     
 }
+.grid-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 25px;
+}
+
+.label-nombre{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.input-nombre{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+.label-apellidos{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.input-apellidos{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.label-email{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.input-email{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.label-telefono{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.input-telefono{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+.novedad1{
+    display: flex;
+    justify-content: space-between;
+}
+.novedad2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fildset1{
+    gap: 25px;
+}
+
 .enviar{
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 20px;
+}
+
+button{
+    padding: 2px;
+    border-radius: 5px;
+}
+
+input::placeholder{
+    font-family:"Permanent Marker", cursive;
+}
+
+option{
+    font-family:"Permanent Marker", cursive;
+}
+
+textarea{
+    font-family:"Permanent Marker", cursive;
+}
+input[type="date"] {
+    text-transform: uppercase; /* Aplica el estilo si el navegador permite texto en este campo */
+    font-family:"Permanent Marker", cursive;
 }

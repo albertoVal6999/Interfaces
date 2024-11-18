@@ -28,71 +28,81 @@
     </aside>
 
     <main>
-        <p>FORMULARIO DE CONTACTO PARA RESERVA DE SALAS</p>
+        <h1>FORMULARIO DE CONTACTO PARA RESERVA DE SALAS</h1>
             <form action="" method="post">
                 <div class="forms">
-                <fieldset>
-                    <legend>DATOS PERSONALES</legend>
+                    <fieldset class="fildset1">
+                        <legend>DATOS PERSONALES</legend>
 
-                    <div class="campo">
-                        <label>NOMBRE</label>
-                        <input type="text" placeholder="NOMBRE">
-                    </div>
-                    
-                    <div class="campo">
-                        <label>APELLIDOS<span>*</span></label>
-                        <input type="text" placeholder="APELLIDOS">
-                    </div>
-                    
-                    <label>EMAIL<span>*</span></label>
-                    <input type="text" placeholder="EMAIL">
-                    
-                    <label>TELÉFONO</label>
-                    <input type="text" placeholder="TELÉFONO">
-                    
-                    <label>NO DESEO RECIBIR NOVEDADES</label>
-                    <input type="radio">
+                        <div class="grid-form">
+                        
+                            <label class="label-nombre">NOMBRE</label>
+                            <input type="text" class="input-nombre" placeholder="NOMBRE">
+                        
+                        
+                       
+                            <label class="label-apellidos">APELLIDOS<span>*</span></label>
+                            <input type="text" class="input-apellidos" placeholder="APELLIDOS">
 
-                    <label>DESEO RECIBIR NOVEDADES</label>
-                    <input type="radio">
-                </fieldset>
-                <fieldset>
-                    <legend>DATOS DE LA RESERVA</legend>
+                        
+                        
+                            <label class="label-email">EMAIL<span>*</span></label>
+                            <input type="text" class="input-email" placeholder="EMAIL">
+                       
+                        
+                        
+                            <label class="label-telefono">TELÉFONO</label>
+                            <input type="text" class="input-telefono" placeholder="TELÉFONO">
+                        </div><!--Aqui acaba el grid para igualar los inputs-->
 
-                    <label>NOMBRE DE LA EXPOSICIÓN</label>
-                    <input type="text" placeholder="NOMBRE DE LA EXPOSICIÓN">
+                        <div class="novedad1">
+                            <label>NO DESEO RECIBIR NOVEDADES</label>
+                            <input type="radio">
+                        </div>
+                        <div class="novedad2">
+                            <label>DESEO RECIBIR NOVEDADES</label>
+                            <input type="radio">
+                        </div>
+                        
+                  
+                    </fieldset>
+                    <fieldset>
+                        <legend>DATOS DE LA RESERVA</legend>
 
-                    <label>FECHA PREVISTA DE INICIO</label>
-                    <input type="date">
+                        <label>NOMBRE DE LA EXPOSICIÓN</label>
+                        <input type="text" placeholder="NOMBRE DE LA EXPOSICIÓN">
 
-                    <label>FECHA PREVISTA FIN</label>
-                    <input type="date">
+                        <label>FECHA PREVISTA DE INICIO</label>
+                        <input type="date">
 
-                    <label>HORARIO</label>
-                    <input list="horarios">
-                    <datalist id="horarios">
-                        <option value="Mañana"></option>
-                        <option value="Tarde"></option>
-                    </datalist>
+                        <label>FECHA PREVISTA FIN</label>
+                        <input type="date">
 
-                    <label>SELECCIONA LAS SALAS QUE DESEAS RESERVAR</label>
-                    <select multiple>
-                        <option value="SALA 1"></option>
-                        <option value="SALA 2"></option>
-                        <option value="SALA 3"></option>
-                        <option value="SALA 4"></option>
-                    </select>
+                        <label>HORARIO</label>
+                        <input list="horarios" placeholder="HORARIO">
+                        <datalist id="horarios">
+                            <option value="Mañana"></option>
+                            <option value="Tarde"></option>
+                        </datalist>
 
-                    <label>COMENTARIOS</label>
-                    <textarea placeholder="POR SI QUIERES AÑADIR ALGO"></textarea>
+                        <label>SELECCIONA LAS SALAS QUE DESEAS RESERVAR</label>
+                        <select multiple>
+                            <option value="SALA 1">SALA 1</option>
+                            <option value="SALA 2"> SALA 2</option>
+                            <option value="SALA 3">SALA 3</option>
+                            <option value="SALA 4">SALA 4</option>
+                        </select>
 
-                </fieldset>
-            </div>
-            <div class="enviar">
-                <input type="checkbox">
-                <label>ACEPTO LOS TERMINOS Y CONDICIONES</label>
-                <button type="submit">ENVIAR</button>
-            </div>
+                        <label>COMENTARIOS</label>
+                        <textarea placeholder="POR SI QUIERES AÑADIR ALGO"></textarea>
+
+                    </fieldset>
+                </div>
+                <div class="enviar">
+                    <input type="checkbox">
+                    <label>ACEPTO LOS TERMINOS Y CONDICIONES</label>
+                    <button type="submit">ENVIAR</button>
+                </div>
             </form>
 
         </div>

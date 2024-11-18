@@ -28,7 +28,7 @@ footer{
     height: var(--footerheight);
     background-color: var(--secundarycolor);
     font-size: 10px;
-    padding-left:150px;
+    
     padding-right: 150px;
     & p{
         display: flex;
@@ -41,12 +41,13 @@ aside{
     background-color: var(--primarycolor);
     color: var(--contrastcolor);
     padding: 25px;
-    font-size: 20px;
+    font-size: 30px;
     & li{
         list-style: none;
     }
     & a{
         text-decoration: none;
+        color: var(--contrastcolor);
     }
 }
 section{
