@@ -30,6 +30,7 @@ fieldset{
     border-radius: 5px;
     padding: 25px;
     background-color: azure;
+    gap: 5px;
     
 }
 .grid-form{
