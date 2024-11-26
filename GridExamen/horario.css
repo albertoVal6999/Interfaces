@@ -1,0 +1,29 @@
+table {
+    border-collapse: collapse;
+    background-color: beige;
+
+    & th {
+        border: solid 1px black;
+        background-color: #dddddd;
+
+    }
+
+    & td {
+        border: solid 1px black;
+        text-align: center;
+
+    }
+
+    & tfoot {
+        & td {
+            padding-left: 2%;
+            text-align: left;
+            background-color: #dddddd;
+        }
+    }
+
+    & tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+
+}

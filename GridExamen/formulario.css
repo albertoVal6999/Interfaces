@@ -1,0 +1,90 @@
+main{
+    height: calc(100vh - (var(--headerHeight) + var(--footerHeight)));
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    & h1{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.formularios{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+}
+.enviar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+textarea{
+    padding: 5px;
+    height: 70px;
+}
+select{
+    padding: 5px;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+}
+
+::placeholder{
+    font-family:  "Bokor", system-ui;
+    font-size: 15px;
+}
+option{
+    font-family:  "Bokor", system-ui;
+}
+
+input[type="date"]{
+    font-family:  "Bokor", system-ui;
+}
+.fieldset1{
+    & label{
+        text-align: center;
+    }
+}
+label{
+    font-size: 20px;
+}
+
+
+
+.grid-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 20px;
+    
+}
+
+.novedad1{
+    padding: 20px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.novedad2{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}

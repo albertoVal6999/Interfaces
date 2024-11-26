@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bokor&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="variables.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="formulario.css">
+    <link rel="stylesheet" href="stylesDesc.css" media="screen and (min-width: 801px)">
+    <link rel="stylesheet" href="stylesMobile.css" media="screen and (max-width: 800px)">
+</head>
+<body>
+
+    <header>
+        <h1>STUDAW2ART</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">INICIO</a></li>
+            <li><a href="horario.html">HORARIO</a></li>
+            <li><a href="formulario.html">CONTACTO</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>FORMULARIO DE CONTACTO PARA RESERVA DE SALAS</h1>
+
+        
+        <form action="" method="post">
+            <div class="formularios">
+                <fieldset class="fieldset1">
+                    <legend>DATOS PERSONALES</legend>
+
+                    <div class="grid-form">
+                        <label class="label-nombre">NOMBRE</label>
+                        <input type="text" placeholder="NOMBRE" class="input-nombre">
+
+                        <label class="label-apellidos">APELLIDOS<span>*</span></label>
+                        <input type="text" placeholder="APELLIDOS" class="input-apellidos">
+
+                        <label class="label-email">EMAIL<span>*</span></label>
+                        <input type="email" placeholder="EMAIL" class="input-email">
+    
+                        <label class="label-telefono">TELEFONO</label>
+                        <input type="tel" placeholder="TELEFONO" class="input-telefono">
+
+                    </div>
+                    
+                    <div class="novedad1">
+                        <label>NO DESEO RECIBIR NOVEDADES</label>
+                        <input type="radio">
+                    </div>
+
+                    <div class="novedad2">
+                        <label>DESEO RECIBIR NOVEDADES</label>
+                        <input type="radio">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>DATOS DE LA RESERVA</legend>
+
+                    <label>NOMBRE DE LA EXPOSICION</label>
+                    <input type="text" placeholder="NOMBRE DE LA EXPOSICION">
+
+                    <label>FECHA PREVISTA INICIO</label>
+                    <input type="date">
+
+                    <label>FECHA PREVISTA FIN</label>
+                    <input type="date">
+
+                    <label>HORARIO</label>
+                    <input list="horario" placeholder="HORARIO">
+                    <datalist id="horario">
+                        <option value="Mañana">
+                        <option value="Tarde">
+                    </datalist>
+
+                    <label>SELECCIONA LAS SALAS QUE DESEAS RESERVAR</label>
+                    <select multiple>
+                        <option value="SALA 1">SALA 1</option>
+                        <option value="SALA 2">SALA 2</option>
+                        <option value="SALA 3">SALA 3</option>
+                        <option value="SALA 4">SALA 4</option>
+                    </select>
+
+                    <label>COMENTARIOS</label>
+                    <textarea placeholder="POR SI QUIERES AÑADIR ALGO"></textarea>
+
+                </fieldset>
+            </div>
+            <div class="enviar">
+                <input type="checkbox">
+                <label>ACEPTO LOS TERMINOS Y CONDICIONES</label>
+                <button type="submit">ENVIAR</button>
+            </div>
+        </form>
+        
+    
+    </main>
+
+    <aside>
+        <h2>PUBLICIDAD</h2>
+        <p>AQUI PODRIA IR TU PUBLICIDAD</p>
+    </aside>
+
+    <footer>
+        <img src="images/logo.jpg">
+        <p>2024 STUDWART ESTUDIO DE ARTE CONTEMPORANEA S.A</p>
+        <p>CALLE DESCONOCIDA, 22005 HUESCA</p>
+        <p>RESERVADOS TODOS LOS DERECHOS</p>
+    </footer>
+    
+</body>
+</html>
