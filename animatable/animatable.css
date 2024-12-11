@@ -1,0 +1,104 @@
+h1{
+    text-align: center;
+}
+
+main{
+    display: flex;
+    color: white;
+    & div{
+        margin: 10px;
+        width: 150px;
+        height: 150px;
+        font-size: 8em;
+        text-align: center;
+    }
+}
+
+#background-color{
+    background-color: slategrey;
+    transition: background 1s linear;
+    &:hover{
+        background: black;
+    }
+}
+
+#background-position{
+    background-color: slategrey;
+    background-image:linear-gradient(135deg, transparent 25%, black 25%, black 50%, transparent 50%, transparent 75%, black 75%, black);    
+    background-size: 50px 50px;
+    
+    background-position:3px 0, 3px 0,15px -150px,15px;
+    &:hover{
+        animation:background-position 2s infinite alternate linear;
+    }
+}
+@keyframes background-position {
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 100% 100%;
+    }  
+}
+
+#background-position2{
+    background-image: linear-gradient(135deg, slategray 25%, transparent 25%), linear-gradient(45deg, transparent 75%, slategray 75%), linear-gradient(45deg, slategray 25%, transparent 25%), linear-gradient(135deg, transparent 75%, slategray 75%);
+    background-size: 24px 300px;
+    background-color: #E04332;
+    background-repeat: repeat-x;
+    background-position: 3px 0, 3px 0, 15px -150px, 15px -150px;
+   
+    
+    &:hover{
+        animation: background-position 2s infinite alternate;
+        
+    }
+}
+@keyframes background-position {
+    0%{
+        background-position: 3px 0, 3px 0, 15px -150px, 15px -150px;
+    }
+    100%{
+        background-position: 3px -70px, 3px -70px, 15px -80px, 15px -80px;
+    }  
+}
+
+#background-size{
+    background-color: slategrey;
+    background-image: repeating-radial-gradient(transparent, transparent 9px, black 11px, black 20px);
+    background-position: center;
+    background-size: 5px 5px;
+    &:hover{
+        animation: background-size 1s infinite alternate;
+        
+    }
+
+}
+@keyframes background-size {
+    0%{
+        background-size: 5px 5px;
+    }
+    100%{
+        background-size: 150px 150px;
+    }  
+}
+
+
+#border-radius{
+    background-color: slategrey;
+
+    &:hover{
+        animation: border-radius 1s infinite alternate;
+        border-radius: 0;
+    }
+
+}
+
+@keyframes background-size {
+    0%{
+        background-size: 0;
+    }
+    100%{
+        background-size: 50%;
+    }  
+}
