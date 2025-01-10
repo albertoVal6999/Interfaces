@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main{
+    background-image: url("img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+  
+}
+.animation-container{
+    display: flex;
+    align-items: center;
+    padding: 130px;
+    h1{
+        color: #5d5daa;
+        font-size: 190px;
+        animation: fadeIn 10s ease-in forwards 2s;
+    }
+    .air-plane{
+        height: 320px;
+        width: 320px;
+        background-image: url("img/avion2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        animation: fly 6s infinite;
+        
+    }
+
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+@keyframes fly {
+   
+    0%{
+        top:400px;
+        animation-timing-function: ease-in;
+       
+        
+        
+    }
+    100%{
+        top: 0;
+        animation-timing-function: ease-out;
+        
+        
+    }
+    
+}
+
+.button-index{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 300px;
+    border-radius: 15px;
+    background-color: #c3c9fd;
+    a{
+        color: #5d5daa;
+        text-decoration: none;
+        padding: 10px;
+    }
+}

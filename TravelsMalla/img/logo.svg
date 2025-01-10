@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="100mm"
+   height="100mm"
+   viewBox="0 0 100 100"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1">
+    <g
+       id="g2"
+       style="opacity:0.99;fill:#aa009e;fill-opacity:0.886637;stroke:#129049;stroke-opacity:0.885558">
+      <path
+         id="path7"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="M 49.058976,71.298278 78.406707,43.977865 V 60.037893 L 49.058976,84.03803 Z"
+         points="78.406707,43.977865 78.406707,60.037893 49.058976,84.03803 49.058976,71.298278 " />
+      <path
+         id="path2"
+         style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="M 26.817131,49.942736 V 65.277847 L 49.058976,84.03803 V 71.298278 Z"
+         points="26.817131,65.277847 49.058976,84.03803 49.058976,71.298278 26.817131,49.942736 " />
+      <path
+         id="path3"
+         style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="M 26.817131,49.942736 56.755523,8.1373212 78.406707,43.977865 49.058976,71.298278 Z"
+         points="56.755523,8.1373212 78.406707,43.977865 49.058976,71.298278 26.817131,49.942736 " />
+      <path
+         id="path6"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="M 26.817131,65.277847 56.755523,28.553084 78.406707,60.037893 49.058976,84.03803 Z"
+         points="56.755523,28.553084 78.406707,60.037893 49.058976,84.03803 26.817131,65.277847 " />
+      <path
+         id="path5"
+         style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="M 56.755523,8.1373212 V 28.553084 L 78.406707,60.037893 V 43.977865 Z"
+         points="56.755523,28.553084 78.406707,60.037893 78.406707,43.977865 56.755523,8.1373212 " />
+      <path
+         id="path4"
+         style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="M 26.817131,49.942736 56.755523,8.1373212 V 28.553084 L 26.817131,65.277847 Z"
+         points="56.755523,8.1373212 56.755523,28.553084 26.817131,65.277847 26.817131,49.942736 " />
+    </g>
+    <g
+       id="g7"
+       style="opacity:0.99;fill:#aa009e;fill-opacity:0.886637;stroke:#129049;stroke-opacity:0.885558">
+      <path
+         id="path13"
+         style="fill:#e9e9ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="M 62.819946,62.021021 43.326358,72.123654 V 49.543866 l 19.493588,-14.14613 z"
+         points="43.326358,72.123654 43.326358,49.543866 62.819946,35.397736 62.819946,62.021021 " />
+      <path
+         id="path11"
+         style="fill:#d7d7ff;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="M 22.199478,60.339612 V 33.043356 l 21.12688,16.50051 v 22.579788 z"
+         points="22.199478,33.043356 43.326358,49.543866 43.326358,72.123654 22.199478,60.339612 " />
+      <path
+         id="path12"
+         style="fill:#afafde;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="m 41.929315,11.566996 -19.729837,21.47636 21.12688,16.50051 19.493588,-14.14613 z"
+         points="22.199478,33.043356 43.326358,49.543866 62.819946,35.397736 41.929315,11.566996 " />
+      <path
+         id="path9"
+         style="fill:#4d4d9f;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="M 41.929315,45.002006 22.199478,60.339612 43.326358,72.123654 62.819946,62.021021 Z"
+         points="22.199478,60.339612 43.326358,72.123654 62.819946,62.021021 41.929315,45.002006 " />
+      <path
+         id="path8"
+         style="fill:#353564;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="m 41.929315,45.002006 v -33.43501 l 20.890631,23.83074 v 26.623285 z"
+         points="41.929315,11.566996 62.819946,35.397736 62.819946,62.021021 41.929315,45.002006 " />
+      <path
+         id="path10"
+         style="fill:#8686bf;fill-rule:evenodd;stroke:none;stroke-linejoin:round"
+         d="M 41.929315,45.002006 22.199478,60.339612 V 33.043356 l 19.729837,-21.47636 z"
+         points="22.199478,60.339612 22.199478,33.043356 41.929315,11.566996 41.929315,45.002006 " />
+    </g>
+  </g>
+</svg>
