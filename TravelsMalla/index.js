@@ -2,6 +2,7 @@
 //mouseout
 //avion.style.animatePlayStyle='paused'
 //avion.style.animatePlayStyle='running'
+
 document.addEventListener("DOMContentLoaded", ()=>{
     const airplane=document.querySelector('.airplane')
     airplane.addEventListener("mouseover", ()=>{

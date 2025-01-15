@@ -8,10 +8,10 @@ header {
     display: flex;
     height: var(--headerheight);
     align-items: center;
-    background-color: #b0b0dc;
+    background-color: #5d5daa;
 
     & h1 {
-        color: #5d5daa;
+        color: #b0b0dc;
     }
 
     img {
@@ -22,36 +22,26 @@ header {
 }
 
 nav {
-    background-color: #5f5faa;
-    height: 50px;
+    background-color: #b0b0dc;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
 
-    a {
-        text-decoration: none;
-    }
-}
-
-.recuadro {
-    background-color: #b0b0dc;
-    width: 70px;
-    padding: 6px;
-    border-radius: 15px;
-    text-align: center;
-}
 
 main {
     background-image: url("img/fondo.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: calc(60vh-(var(--headerheight)));
+    display: flex;
+    justify-content: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    overflow: hidden;
 
 }
 
@@ -62,7 +52,8 @@ body {
 /* Position the image container (needed to position the left and right arrows) */
 .container {
     position: relative;
-  
+    width: 80%;
+    
 
 }
 
@@ -71,7 +62,7 @@ body {
     display: none;
     
     img {
-        height: 700px;
+        height: 600px;
         width: 100%;
     }
 }
@@ -142,7 +133,7 @@ body {
     float: left;
     width: 16.66%;
     img{
-        height: 200px;
+        height: 100px;
         width: 100%;
     }
 }

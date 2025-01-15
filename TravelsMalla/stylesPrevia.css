@@ -3,7 +3,7 @@
     margin: 0;
 }
 main{
-    background-image: url("img/fondo.jpg");
+    background-image: url("img/fondo6.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -13,20 +13,23 @@ main{
 .animation-container{
     display: flex;
     align-items: center;
-    padding: 130px;
+   
     h1{
         color: #5d5daa;
         font-size: 190px;
-        animation: fadeIn 10s ease-in forwards 2s;
+        animation: fadeIn 8s ease-in forwards 2s;
+        padding: 100px;
     }
-    .air-plane{
+    .airplane{
         height: 320px;
         width: 320px;
-        background-image: url("img/avion2.png");
+        background-image: url("img/avion3.png");
         background-repeat: no-repeat;
         background-size: cover;
         position: relative;
-        animation: fly 6s infinite;
+        animation: fly 10s infinite;
+        padding-right: 100px;
+        
         
     }
 
@@ -44,17 +47,11 @@ main{
 @keyframes fly {
    
     0%{
-        top:400px;
-        animation-timing-function: ease-in;
-       
-        
-        
+        transform:translate(0,0) rotate(-45deg);  
     }
-    100%{
-        top: 0;
-        animation-timing-function: ease-out;
-        
-        
+    
+    100%{  
+        transform:translate(-1000px,-550px) rotate(-45deg);
     }
     
 }
@@ -66,6 +63,10 @@ main{
     width: 300px;
     border-radius: 15px;
     background-color: #c3c9fd;
+    animation: fadeIn 13s ease-in forwards 2s;
+    margin-left: 400px;
+   
+    
     a{
         color: #5d5daa;
         text-decoration: none;
